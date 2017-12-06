@@ -1,0 +1,55 @@
+{
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Hopscotch",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+
+    // Hide open tabs section of explorer
+    "explorer.openEditors.visible": 0,
+
+    // Persist newly opened tabs
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    // Hide some search-stuff
+    "search.useIgnoreFilesByDefault": true,
+    "search.quickOpen.includeSymbols": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/dist": true,
+        "**/dist-deploy": true
+    },
+
+    // Prettier settings
+    "prettier.singleQuote": true,
+
+    // Hides the annoying ass tooltips that pop up on every object
+    "editor.parameterHints": true,
+
+    // Show tabs in zenmode
+    "zenMode.hideTabs": false,
+
+    // Newline at end of file
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": 0,
+    "editor.scrollBeyondLastLine": false,
+
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "editor.smoothScrolling": false,
+    "editor.minimap.showSlider": "always",
+    "workbench.editor.swipeToNavigate": true,
+    "gitlens.gitExplorer.files.layout": "tree",
+    "files.trimTrailingWhitespace": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    }
+}
