@@ -5,7 +5,7 @@ function debug {
 function install {
   local addons=$(cat extensions.txt);
   debug "----------------------------"
-  debug "Installing...";
+  debug "Installing extensions...";
   debug "----------------------------"
   for addon in $addons; do
     debug "$addon";
