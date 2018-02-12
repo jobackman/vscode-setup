@@ -19,7 +19,8 @@
         "**/bower_components": true,
         "**/tmp": true,
         "**/dist": true,
-        "**/dist-deploy": true
+        "**/dist-deploy": true,
+        "**/deploy-dist": true
     },
 
     // Prettier settings
@@ -51,5 +52,7 @@
         "suppressNoRepositoryWarning": false,
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
-    }
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.blame.avatars": false
 }
