@@ -11,16 +11,21 @@
   {
     "key": "shift+alt+7",
     "command": "-gitlens.showCommitSearch",
-    "when": "gitlens:enabled"
-  },
-  {
-    "key": "shift+alt+7",
-    "command": "-gitlens.showCommitSearch",
     "when": "gitlens:enabled && gitlens:keymap == 'standard'"
   },
   {
     "key": "alt+cmd+g shift+7",
     "command": "-gitlens.showCommitSearch",
+    "when": "gitlens:enabled && gitlens:keymap == 'chorded'"
+  },
+  {
+    "key": "shift+alt+7",
+    "command": "-gitlens.showCommitSearch",
+    "when": "gitlens:enabled && gitlens:keymap == 'alternate'"
+  },
+  {
+    "key": "ctrl+shift+g g",
+    "command": "-workbench.view.scm",
     "when": "gitlens:enabled && gitlens:keymap == 'chorded'"
   }
 ]

@@ -3,7 +3,6 @@
     "workbench.colorTheme": "Hopscotch",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreviewFromQuickOpen": false, // Persist newly opened tabs
-    "workbench.editor.swipeToNavigate": true,
 
     "editor.fontSize": 13,
     "editor.tabSize": 2,
@@ -18,6 +17,7 @@
     "explorer.openEditors.visible": 0, // Hide open tabs section of explorer
 
     "zenMode.hideTabs": false, // Show tabs in zenmode
+    "zenMode.centerLayout": false,
 
     "files.insertFinalNewline": true, // Newline at end of file
     "files.trimTrailingWhitespace": true,
@@ -38,6 +38,7 @@
 
     // Prettier settings
     "prettier.singleQuote": true,
+    "prettier.eslintIntegration": true,
 
     // Because we use global yarn modules
     "eslint.packageManager": "yarn",
@@ -53,7 +54,11 @@
         "suppressGitVersionWarning": false,
         "suppressLineUncommittedWarning": false,
         "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
-    }
+    },
+    "gitlens.keymap": "chorded",
+    "gitlens.historyExplorer.enabled": true
 }
