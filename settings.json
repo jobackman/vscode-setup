@@ -20,6 +20,7 @@
 
     "zenMode.hideTabs": false, // Show tabs in zenmode
     "zenMode.centerLayout": false,
+    "zenMode.hideStatusBar": false,
 
     "files.insertFinalNewline": true, // Newline at end of file
     "files.trimTrailingWhitespace": true,
