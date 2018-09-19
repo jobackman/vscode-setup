@@ -63,5 +63,12 @@
         "suppressWelcomeNotice": true
     },
     "gitlens.keymap": "chorded",
-    "gitlens.historyExplorer.enabled": true
+    "gitlens.historyExplorer.enabled": true,
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ]
 }
