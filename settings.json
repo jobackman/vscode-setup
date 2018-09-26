@@ -1,74 +1,73 @@
 {
-    "workbench.iconTheme": "vscode-great-icons",
-    "workbench.colorTheme": "Hopscotch",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.enablePreviewFromQuickOpen": false, // Persist newly opened tabs
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.colorTheme": "Hopscotch",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreviewFromQuickOpen": false, // Persist newly opened tabs
 
-    "editor.fontSize": 13,
-    "editor.tabSize": 2,
-    "editor.scrollBeyondLastLine": false,
-    "editor.smoothScrolling": false,
-    "editor.minimap.showSlider": "always",
-    "editor.parameterHints": false, // Hides the annoying ass tooltips that pop up on every object
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": false,
+  "editor.minimap.showSlider": "always",
 
-    "window.zoomLevel": 0,
-    "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "window.zoomLevel": 0,
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
 
-    "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": true,
 
-    "explorer.openEditors.visible": 0, // Hide open tabs section of explorer
+  "explorer.openEditors.visible": 0, // Hide open tabs section of explorer
 
-    "zenMode.hideTabs": false, // Show tabs in zenmode
-    "zenMode.centerLayout": false,
-    "zenMode.hideStatusBar": false,
+  "zenMode.hideTabs": false, // Show tabs in zenmode
+  "zenMode.centerLayout": false,
+  "zenMode.hideStatusBar": false,
 
-    "files.insertFinalNewline": true, // Newline at end of file
-    "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true, // Newline at end of file
+  "files.trimTrailingWhitespace": true,
 
-    // Hide some search-stuff
-    "search.useIgnoreFiles": true,
-    "search.quickOpen.includeSymbols": true,
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/tmp": true,
-        "**/dist": true,
-        "**/dist-deploy": true,
-        "**/deploy-dist": true
-    },
+  // Hide some search-stuff
+  "search.useIgnoreFiles": true,
+  "search.quickOpen.includeSymbols": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true,
+    "**/dist": true,
+    "**/dist-deploy": true,
+    "**/deploy-dist": true
+  },
 
-    /*  ===== ADDONS ===== */
+  /*  ===== ADDONS ===== */
 
-    // Prettier settings
-    "prettier.singleQuote": true,
-    "prettier.eslintIntegration": true,
+  // Prettier settings
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
 
-    // Because we use global yarn modules
-    "eslint.packageManager": "yarn",
+  // Because we use global yarn modules
+  "eslint.packageManager": "yarn",
 
-    // Gitlens settings
-    "gitlens.blame.avatars": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.gitExplorer.files.layout": "tree",
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
-    },
-    "gitlens.keymap": "chorded",
-    "gitlens.historyExplorer.enabled": true,
-    "github.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ]
+  // Gitlens settings
+  "gitlens.blame.avatars": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.gitExplorer.files.layout": "tree",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "gitlens.keymap": "chorded",
+  "gitlens.historyExplorer.enabled": true,
+  "github.hosts": [
+    {
+      "host": "https://github.com",
+      "username": "oauth",
+      "token": "system"
+    }
+  ]
 }
