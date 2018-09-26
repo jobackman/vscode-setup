@@ -18,9 +18,10 @@ Install the vscode extensions supplied by the _extensions.txt_ file by running `
 ./install-extensions.sh
 ```
 
+## Update `extensions.txt`
 If you remove/add more extensions for your own preference just run the `update-extensions.sh` file to update the _extensions.txt_ file.
 
-### Help, scripts wont run :(
+## Help, scripts wont run :(
 It could be that you have to allow the shell scripts to run, then you must do
 ```bash
 chmod +x <shell-file-name>
