@@ -15,11 +15,10 @@
 
   "breadcrumbs.enabled": true,
 
-  "explorer.openEditors.visible": 0, // Hide open tabs section of explorer
-
-  "zenMode.hideTabs": false, // Show tabs in zenmode
+  "explorer.openEditors.visible": 0, // Show tabs in zenmode
   "zenMode.centerLayout": false,
   "zenMode.hideStatusBar": false,
+  "zenMode.hideTabs": false,
 
   "files.insertFinalNewline": true, // Newline at end of file
   "files.trimTrailingWhitespace": true,
@@ -27,6 +26,7 @@
   // Hide some search-stuff
   "search.useIgnoreFiles": true,
   "search.quickOpen.includeSymbols": true,
+  "search.showLineNumbers": true,
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
@@ -36,14 +36,16 @@
     "**/deploy-dist": true
   },
 
+  "files.exclude": {
+    "**/src/**/*.js.map": true
+  },
+
   /*  ===== ADDONS ===== */
 
   // Prettier settings
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
-
-  // Because we use global yarn modules
-  "eslint.packageManager": "yarn",
+  "prettier.tslintIntegration": true,
 
   // Gitlens settings
   "gitlens.blame.avatars": false,
